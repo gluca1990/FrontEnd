@@ -1,0 +1,84 @@
+html{
+    
+}
+body{
+    text-align: center;
+    background-color: #666666;
+    font-family: 'indie flower';
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+   
+}
+.postit{
+    background-color: blue;
+    margin: 3%;
+    padding: 3%;
+    flex-basis: 10%;
+    height: 15vh;
+    box-shadow: 0px 8px 14px 3px black;
+    
+}
+
+h6{
+    font-size: 300%;
+    font-weight: 600;
+    margin-bottom: 15%;
+}
+
+.postit:first-child{
+    transform: rotate(-5deg);
+    background-color: #f9fac8;
+}
+
+.postit:nth-child(2){
+    transform: rotate(3deg);
+    background-color: #c8f8ca;
+}
+
+
+.postit:nth-child(3){
+    transform: rotate(-4deg);
+    background-color: #c7c7f5;
+}
+
+.postit:nth-child(4){
+    background-color: #c8f8ca;
+    transform: translateY(-10px) rotate(4deg);
+    
+}
+
+.postit:nth-child(5){
+    transform: rotate(-4deg);
+    background-color: #f9fac8;
+}
+
+.postit:nth-child(6){
+    transform: translateY(-10px) rotate(-6deg);
+    background-color: #c7c7f5;
+    
+}
+
+
+.postit:nth-child(7){
+    transform: rotate(-4deg);
+    background-color: #f9fac8;
+}
+
+
+.postit:nth-child(8){
+    transform: rotate(3deg);
+    background-color: #c8f8ca;
+}
+
+.postit:hover{
+    transform: rotate(0) scale(1.2,1.2);
+    z-index: 10;
+    
+}
+
