@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    color: rgb(109, 24, 4);
+    
+}
+
+header  {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+nav{
+    background-color: rgb(254, 247, 226);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left:2%;
+    padding-right:2%;
+    flex-basis: 90%;
+    border-radius: 10%;
+    margin-top: 10%;
+}
+nav li {
+    background-color: rgb(255, 223, 127);
+    width: auto;
+    margin:5px;
+    font-weight: 600;
+    border-radius: 10em;
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav li:first-child{
+    flex-basis: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15%;
+    font-size: 200%;
+}
+nav li:not(li:first-child){
+    flex-basis: 35%;
+    padding : 5%;
+    font-size: 120% ;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(109, 24, 4);
+   
+}
+nav img{width:20%}
+h1{
+    font-size: 250%;
+    font-weight: 800;
+    margin:10%;
+    text-align: center;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.productCard{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 247, 226);
+    border-radius: 10%;
+    height:auto;
+    justify-content: space-evenly;
+    padding-bottom:10%;
+    margin-bottom: 5%;
+   
+}
+
+.button {
+    width: auto;
+    flex-basis: 40%;
+
+}
+.productCard img{
+    flex-basis: 100%;
+    overflow:hidden;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+.productCard a{
+    text-decoration: none;
+    color: rgb(109, 24, 4);
+    background-color: rgb(255, 223, 127);
+    border-radius: 10em;
+    padding:3%;
+    font-size: 80%;
+    width: 40%;
+    margin-left: auto; 
+    margin-right: auto;
+    display:block;
+    text-align: center;
+    font-weight: bold;
+}
+.product{
+    text-align: center;
+}
+.product h6{
+    font-size: 70%;
+}
+.product h5{
+    font-size: 100%;
+    font-weight: bold;
+}
+
+    
+
+
+
+
+
+h2{
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+.article{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(254, 247, 226);
+    padding: 5%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.article img{
+    width:100%;
+    height: auto;
+}
+.article h3 {
+    font-size:150%;
+    font-weight: bold;
+    
+}
+.article h3, .article img, .article p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+article h2 {
+    margin:5%
+}
